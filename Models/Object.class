@@ -1,0 +1,22 @@
+Object
+{
+ private List<Property> Values
+ 
+ 
+ public AddValue(string name,type type) -> Values
+ 
+ public RemoveValue(string name) -> Values
+ 
+ 
+ public int AddOnChangeListener(string name, Action) -> Values
+ 
+ public RemoveOnChangeListener(int id) -> Values
+ 
+ public ClearOnChangeListeners() -> Values
+ 
+ 
+ public SetValue(string name, T value) -> Values
+ 
+ public GetValue(string name) -> Values
+ 
+}

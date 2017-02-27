@@ -1,0 +1,21 @@
+Property<T>
+{
+	public string name
+	private val<T> value
+	private List<string> ChangeListeners
+	
+
+	public Set(T value)->NotifyListeners(),value
+	
+	public T Get()->value
+	
+	
+	public int(id) AddChangeListener( string script ) -> ChangeListeners
+	
+	public RemoveListener(int l) -> ChangeListeners
+	
+	public ClearListeners() -> ChangeListeners
+		
+	private NotifyListeners() -> ChangeListeners
+	
+}
